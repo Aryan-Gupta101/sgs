@@ -70,6 +70,7 @@ html::-webkit-scrollbar-thumb{
     margin-right: 2rem;
     color: var(--black);
     cursor: pointer;
+    display: none
 }
 
 .header .search{
@@ -106,7 +107,7 @@ html::-webkit-scrollbar-thumb{
     min-height: 100vh;
     display: flex;
     align-items: center;
-    background: url(images/back.png) no-repeat;
+    background: url(images/background.jpg) no-repeat;
     background-size: cover;
     background-position: center center;
 }
@@ -115,13 +116,14 @@ html::-webkit-scrollbar-thumb{
     float: left;
     text-align: center;
     padding: 4rem;
+    color: rgb(211, 211, 204);
 }
 .home .homeContent h2{
     font-size: 7rem;
     font-weight: bolder;
     margin-bottom: 2rem;
     line-height: 7rem;
-    color: var(--black);
+    color: rgb(211, 211, 204); 
     text-shadow: var(--box-shadow);
 }
 .home .homeContent p{
